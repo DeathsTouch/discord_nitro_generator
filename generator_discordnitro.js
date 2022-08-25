@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-client.login("token");
+client.login("OTk3NjY3ODAwODE2NTYyMjU3.Gp7ikN.2JAZHGri_RlB9HW9IbzCAZe3JscuXCN38tEy9M");
 
 client.on('message', message => { 
     function nitrocode(length, letter) {
@@ -23,7 +23,7 @@ results += multiplier[Math.floor(Math.random() * multiplier.length)];
 return results;
 
 }
-if(message.content.startsWith(".nitro")){
+if(message.content.startsWith("n?nitro")){
     const genEmbed = new Discord.RichEmbed()
         .setColor('78FF00')
         .setThumbnail(https://cdn.discordapp.com/attachments/592064932044996629/592369622049619979/gifvert.gif)
